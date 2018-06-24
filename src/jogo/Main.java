@@ -13,8 +13,10 @@ public class Main {
         //1º
         Window janela = new Window(800,600);//tamanho da janela
         //criando o objeto plano do menu principal
+        
         //e o metodo URL que chama Sprite
         GameImage plano = new GameImage("src/recursos/sprite/menu.png");
+        
         //3º
         Keyboard teclado =  janela.getKeyboard(); //vai instanciar um objeto Janela atravez da classe windows
         
@@ -22,6 +24,7 @@ public class Main {
         while(true){
             plano.draw();//printar a tela
             janela.update();//atualizando enquanto percorre o loop
+           
            //4ºcriar uma condição pra fazer escuta do chamado do teclado
            if(teclado.keyDown(Keyboard.ENTER_KEY)){
                //CRIAR UM OPTIONPANE APENAS PARA TESTAR SE ESTÁ FUNCIONANDO
@@ -29,4 +32,4 @@ public class Main {
            }
         }
     }
-}auheauheauhe
+}

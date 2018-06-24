@@ -15,7 +15,7 @@ public class Main {
         //criando o objeto plano do menu principal
         
         //e o metodo URL que chama Sprite
-        GameImage plano = new GameImage("src/recursos/cenario/menu.png");//alterei o menu para cenario
+        GameImage plano = new GameImage("src/recursos/sprite/menu.png");//alterei o menu para cenario
         
         //3º
         Keyboard teclado =  janela.getKeyboard(); //vai instanciar um objeto Janela atravez da classe windows

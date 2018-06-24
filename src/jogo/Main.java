@@ -27,8 +27,8 @@ public class Main {
            
            //4ºcriar uma condição pra fazer escuta do chamado do teclado
            if(teclado.keyDown(Keyboard.ENTER_KEY)){
-               //CRIAR UM OPTIONPANE APENAS PARA TESTAR SE ESTÁ FUNCIONANDO
-               JOptionPane.showMessageDialog(null, "funciona");
+               //chamando o cenario passando janela como parametro
+               new Cenario1(janela);
            }
         }
     }

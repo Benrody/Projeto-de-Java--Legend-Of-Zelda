@@ -1,6 +1,7 @@
 package jogo;
 
 import jplay.Scene;
+import jplay.URL;
 import jplay.Window;
 
 /**
@@ -15,7 +16,7 @@ public class Cenario1 {
     public Cenario1(Window window){// vai recebero parametro do tipo window da classe anterior
         janela = window;//janela vaireceber o window
         cena = new Scene();// instanciar a cena
-        cena.loadFromFile("src/recursos/scn/cenario1.scn");
+        cena.loadFromFile(URL.scenario("cenario1.scn"));//recebe o arquivo tile que vai dar o cenario
         
         //criar um metodo run pra deixar o metoo infinito igual a tela de menu
         run();

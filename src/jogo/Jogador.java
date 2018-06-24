@@ -75,6 +75,11 @@ public class Jogador extends Sprite {//jogador deve estender toda a classe sprit
                 direcao = 5;
             }movendo = true;
         }
+        //scondição para que ele esteja andando mude o o passo
+        if(movendo){
+            update();
+            movendo = false;
+        }
     }
 
 }

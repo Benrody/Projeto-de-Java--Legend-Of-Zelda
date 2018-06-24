@@ -31,7 +31,7 @@ public class Cenario1 {
         while(true){
             cena.draw();
             jogador.draw();//pritando jogador
-            jogador.mover();//movimentar jogador usando o metodo mover que criei
+            jogador.mover(janela);//movimentar jogador usando o metodo mover que criei
             janela.update();
         }
     }

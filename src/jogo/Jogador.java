@@ -19,7 +19,7 @@ public class Jogador extends Sprite {//jogador deve estender toda a classe sprit
     
     //ai deve criar o construtor
     public Jogador(int x, int y) {
-        super(("src/recursos/sprite/jogador.png"), 20);//informar o caminho da imagem e numero de frames que possui
+        super(("src/recursos/sprite/ZELDA.png"), 16);//informar o caminho da imagem e numero de frames que possui
         this.x = x;
         this.y = y;
         this.setTotalDuration(2000);
@@ -75,7 +75,7 @@ public class Jogador extends Sprite {//jogador deve estender toda a classe sprit
                 direcao = 5;
             }movendo = true;
         }
-        //scondição para que ele esteja andando mude o o passo
+        //se ele estiver se movendo, vai 
         if(movendo){
             update();
             movendo = false;
